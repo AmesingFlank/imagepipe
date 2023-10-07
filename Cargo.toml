@@ -22,13 +22,10 @@ log = "0.4"
 num-traits = "0.2"
 image = "0.24"
 
-[dependencies.rawloader]
-version = "0.37"
-path = "../rawloader"
+rawloader = {git = "https://github.com/AmesingFlank/rawloader", branch = "update_camera_data_0"}
 
 [dependencies.multicache]
 version = "0.6.0"
-path = "../multicache"
 
 [profile.dev]
 opt-level = 3
